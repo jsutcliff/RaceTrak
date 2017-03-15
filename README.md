@@ -15,7 +15,7 @@ I developed the RaceTrak personal lap timer as a cheaper alternative to the TBS 
 
 The RaceTrak personal lap timer hardware is still in prototype stages. More info will be posted when the device is ready for production!
 
-## Getting Started
+## User Manual
 
 To turn on the RaceTrak lap timer, hold the main button down for 3 seconds. You will will see the LED indicator turn solid blue. In a few moments, the RaceTrak lap timer will initalize a Wifi Access point named: "RaceTrak_XXXXXXXX" where the Xs represent the ID of the product. Simply connect to this network using any device with a web browser. The user interface is optimised for mobile users, so an Android or iPhone is reccomended. 
 
@@ -41,3 +41,10 @@ To turn the RaceTrak timer off, either hold the multi-function button down for 3
 
 
 <img src="/docs/offbutton.PNG" alt="Main Tab" height="500">     <img src="/docs/off.PNG" alt="Main Tab" height="500"> 
+
+**Feedback**
+
+I am constatly looking to improve this project! Please feel free to ask questions, suggest features, or report bugs.
+Contact me: 
+email - justins210@gmail.com
+fpvchat - jsut210
