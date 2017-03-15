@@ -28,3 +28,7 @@ To acces the RaceTrak application, open a web browser and navigate to 192.168.1.
 Here you can see the main screen of the RaceTrack web application. In the header of the user interface, there is a battery indicator and a power button, more on this later. The "Timer" tab is used to track a pilot's lap times. First you much select the band and channel of you 5.8 Ghz video transmitter. You will notice that the channels are maked with channel number and frequency in Mhz. After selecting the approprate channel, the blue bar slider will be updated with the live RSSI value. This allows you to double check that you are on the correct channel. Below the slider, there are three buttons: "Start", "Stop", and "Clear" Below the buttons there is a list of lap times. The first item in the list is always the current lap time. If a lap has been started, this time will be updated live. Times listed below the first time are completed lap times, the most recent lap is at the top of the list.
 
 <img src="/docs/maintab.PNG" alt="Main Tab" height="500">     <img src="/docs/setband.PNG" alt="Main Tab" height="500">     <img src="/docs/setchannel.PNG" alt="Main Tab" height="500">     <img src="/docs/times.PNG" alt="Main Tab" height="500">
+
+The next tab in the RaceTrak user interface is the "Scanner" tab. This feature allows user to scan all 40 channels of the 5.8Ghz band. Clicking on the bar graph displays the selected band and channel.
+
+<img src="/docs/scanner.PNG" alt="Main Tab" height="500">
