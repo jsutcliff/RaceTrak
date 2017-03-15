@@ -19,8 +19,12 @@ The RaceTrak personal lap timer hardware is still in prototype stages. More info
 
 To turn on the RaceTrak lap timer, hold the main button down for 3 seconds. You will will see the LED indicator turn solid blue. In a few moments, the RaceTrak lap timer will initalize a Wifi Access point named: "RaceTrak_XXXXXXXX" where the Xs represent the ID of the product. Simply connect to this network using any device with a web browser. The user interface is optimised for mobile users, so an Android or iPhone is reccomended. 
 
-<img src="/docs/wifi.PNG" alt="Wifi Config" height="500" style="text-align:center">
+<img src="/docs/wifi.PNG" alt="Wifi Config" height="500">
 
 To acces the RaceTrak application, open a web browser and navigate to 192.168.1.1 Note, because you are connected to the RaceTrak wifi, you can actually use any web address you like, the RaceTrak DNS server will redirect you to 192.168.1.1 you can see the url thisdoesnnotmatter.com works just fine.
 
-<img src="/docs/ipaddress.PNG" alt="Ip Address" height="500"><img src="/docs/anyurl.PNG" alt="Use Any Url" height="500">
+<img src="/docs/ipaddress.PNG" alt="Ip Address" height="500">     <img src="/docs/anyurl.PNG" alt="Use Any Url" height="500">
+
+Here you can see the main screen of the RaceTrack web application. In the header of the user interface, there is a battery indicator and a power button, more on this later. The "Timer" tab is used to track a pilot's lap times. First you much select the band and channel of you 5.8 Ghz video transmitter. You will notice that the channels are maked with channel number and frequency in Mhz. After selecting the approprate channel, the blue bar slider will be updated with the live RSSI value. This allows you to double check that you are on the correct channel. Below the slider, there are three buttons: "Start", "Stop", and "Clear" Below the buttons there is a list of lap times. The first item in the list is always the current lap time. If a lap has been started, this time will be updated live. Times listed below the first time are completed lap times, the most recent lap is at the top of the list.
+
+<img src="/docs/maintab.PNG" alt="Main Tab" height="500">     <img src="/docs/setband.PNG" alt="Main Tab" height="500">     <img src="/docs/setchannel.PNG" alt="Main Tab" height="500">     <img src="/docs/times.PNG" alt="Main Tab" height="500">
