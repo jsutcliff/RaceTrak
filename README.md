@@ -33,4 +33,11 @@ The next tab in the RaceTrak user interface is the "Scanner" tab. This feature a
 
 <img src="/docs/scanner.PNG" alt="Main Tab" height="500">
 
-The final tab in the user interface is the "Settings" tab. This tab allows the user to change the SSID and password of the RaceTrak wifi network. Note, wifi settings will be applied after the device is restarted. The settings tab also allows the user to calibrate the RSSI value that the RaceTrak timer will trigger at. The user can manually enter a vlaue from 1 - 100 or click calibrate and the current RSSI value will be set. The RaceTrak timer should be positioned ...
+The final tab in the user interface is the "Settings" tab. This tab allows the user to change the SSID and password of the RaceTrak wifi network. Note, wifi settings will be applied after the device is restarted. The settings tab also allows the user to calibrate the RSSI value that the RaceTrak timer will trigger at. The user can manually enter a vlaue from 1 - 100 or click calibrate and the current RSSI value will be set. The RaceTrak timer should be positioned about 2m or 6ft from the the drone you wish to track. When calibrating, it is important that the RaceTrak timer is set to the correct channel. The last setting on the settings tabs is the "Start on Trigger" setting. When turned on, the RaceTrak timer will begin the first lap once the RSSI value reaches the calibrated trigger level. When off, the lap time beigns instantly when the start button is pressed. It is reccomended to leave this setting on.
+
+<img src="/docs/settings.PNG" alt="Main Tab" height="500">
+
+To turn the RaceTrak timer off, either hold the multi-function button down for 3 seconds unitl the LED turns off, or tap the power button in any tab of the user interface.
+
+
+<img src="/docs/offbutton.PNG" alt="Main Tab" height="500">     <img src="/docs/off.PNG" alt="Main Tab" height="500"> 
