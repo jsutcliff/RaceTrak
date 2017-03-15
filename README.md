@@ -32,3 +32,5 @@ Here you can see the main screen of the RaceTrack web application. In the header
 The next tab in the RaceTrak user interface is the "Scanner" tab. This feature allows user to scan all 40 channels of the 5.8Ghz band. Clicking on the bar graph displays the selected band and channel.
 
 <img src="/docs/scanner.PNG" alt="Main Tab" height="500">
+
+The final tab in the user interface is the "Settings" tab. This tab allows the user to change the SSID and password of the RaceTrak wifi network. Note, wifi settings will be applied after the device is restarted. The settings tab also allows the user to calibrate the RSSI value that the RaceTrak timer will trigger at. The user can manually enter a vlaue from 1 - 100 or click calibrate and the current RSSI value will be set. The RaceTrak timer should be positioned ...
