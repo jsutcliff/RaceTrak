@@ -42,7 +42,7 @@ To turn the RaceTrak timer off, either hold the multi-function button down for 3
 
 <img src="/docs/offbutton.PNG" alt="Main Tab" height="500">     <img src="/docs/off.PNG" alt="Main Tab" height="500"> 
 
-##Feedback##
+## Feedback
 
 I am constatly looking to improve this project! Please feel free to ask questions, suggest features, or report bugs.
 Contact me: 
