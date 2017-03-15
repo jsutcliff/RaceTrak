@@ -21,4 +21,7 @@ To turn on the RaceTrak lap timer, hold the main button down for 3 seconds. You 
 
 <img src="/docs/wifi.PNG" alt="Wifi Config" height="500">
 
-To acces the RaceTrak application, open a web browser and navigate to 192.168.1.1 Note, because you are connected to the RaceTrak wifi, you can actually use any web address you like, the RaceTrak DNS server will redirect you to 192.168.1.1
+To acces the RaceTrak application, open a web browser and navigate to 192.168.1.1 Note, because you are connected to the RaceTrak wifi, you can actually use any web address you like, the RaceTrak DNS server will redirect you to 192.168.1.1 you can see the url thisdoesnnotmatter.com works just fine.
+
+<img src="/docs/ipaddress.PNG" alt="Ip Address" height="500" style="display:inline">
+<img src="/docs/anyurl.PNG" alt="Use Any Url" height="500" style="display:inline">
