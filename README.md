@@ -15,6 +15,7 @@ I developed the RaceTrak personal lap timer as a cheaper and much improved alter
 
 - Finishing up the designs for the plastic case
 - Waiting for version 2 of the PCBs to get in from the fab
+- Hardware pictures coming soon
 
 ## Where to buy
 
