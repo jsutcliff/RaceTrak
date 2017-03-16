@@ -1,19 +1,24 @@
 # RaceTrak
 
-I developed the RaceTrak personal lap timer as a cheaper alternative to the TBS Lap timer. 
+I developed the RaceTrak personal lap timer as a cheaper and much improved alternative to the TBS Lap timer. Instead of bluetooth and individual apps for Android / iOS, the RaceTrak timer uses a wifi connection to serve a webapp. This allows for use on many more devices, including laptops. Once completed, the software will be uploaded to this repository to allow users to make improvements to the user interface. As of now, the hardware will remain closed.
 
 ## Features
 
 - Fully compadible with any wifi-enabled device with browser
 - Does not require any apps or additional software
-- Integrated 18650 battery for 6 hours of race tracking
+- Integrated 18650 3400mAh battery for 6 hours of race tracking
 - Integrated USB charging via micro USB port
-- Full 40ch 5.8Ghz spectrum
+- Full 40ch 5.8Ghz spectrum (easily expandable)
 - Built in band scanning mode (see below)
+
+## Updates
+
+- Finishing up the designs for the plastic case
+- Waiting for version 2 of the PCBs to get in from the fab
 
 ## Where to buy
 
-The RaceTrak personal lap timer hardware is still in prototype stages. More info will be posted when the device is ready for production!
+The RaceTrak personal lap timer hardware is still in prototype stages. More info will be posted when the device is ready for production! Estimated cost: $45
 
 ## User Manual
 
