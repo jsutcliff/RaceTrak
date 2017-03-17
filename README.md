@@ -8,7 +8,7 @@ I developed the RaceTrak personal lap timer as a cheaper and much improved alter
 
 - Fully compatible with any wifi-enabled device with browser
 - Does not require any apps or additional software
-- Integrated 18650 3400mAh battery for 6 hours of race tracking
+- Integrated 18650 3400mAh battery for 8+ hours of racing
 - Integrated USB charging via micro USB port
 - Full 40ch 5.8Ghz spectrum (easily expandable)
 - Built in band scanning mode (see below)
