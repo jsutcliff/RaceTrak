@@ -54,7 +54,7 @@ To turn the RaceTrak timer off, either hold the multi-function button down for 3
 
 In iOS you can create a RaceTrak webapp by opening the RaceTrak web page and clicking add to home screen.
 
-<img src="/docs/safari.PNG" alt="App" height="500">     <img src="/docs/ios.PNG" alt="Main Tab" height="500"> 
+<img src="/docs/safari.jpeg" alt="Main Tab" height="500">     <img src="/docs/ios.PNG" alt="Main Tab" height="500"> 
 
 ## Feedback
 
