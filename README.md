@@ -1,6 +1,6 @@
 # RaceTrak
 
-<img src="/docs/RaceTrak.PNG" alt="Wifi Config" height="250">
+<img src="/docs/RaceTrak.png" alt="Logo" height="150">
 
 I developed the RaceTrak personal lap timer as a cheaper and much improved alternative to the TBS Lap timer. Instead of bluetooth and individual apps for Android / iOS, the RaceTrak timer uses a wifi connection to serve a webapp. This allows for use on many more devices, including laptops. Once completed, the software will be uploaded to this repository to allow users to make improvements to the user interface. As of now, the hardware will remain closed.
 
