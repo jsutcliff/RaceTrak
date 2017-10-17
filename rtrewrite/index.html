@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+
+  <title>RaceTrak</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="css/theme.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <a class="navbar-brand" style="height: 75px; margin-top: -14px">
+      <img src="icon.png" height="60">
+    </a>
+  </nav>
+
+  <div class="container theme-showcase" role="main">
+    <button class="btn btn-primary" data-toggle="modal" data-target="#scanner">
+      <span class="glyphicon glyphicon-signal"></span>
+      Scanner
+    </button>
+
+    <button class="btn btn-success" data-toggle="modal" data-target="#settings">
+      <span class="glyphicon glyphicon-cog"></span>
+      Settings
+    </button>
+
+    <button class="btn btn-danger" data-toggle="modal" data-target="#power">
+      <span class="glyphicon glyphicon-off"></span>
+      Power
+    </button>
+
+    <div class="page-header">
+      <h2>Controls</h2>
+    </div>
+    <p>
+      <button id="start" class="btn btn-success">
+        <span class="glyphicon glyphicon-play"></span>
+        Start
+      </button>
+
+      <button id="stop" class="btn btn-danger">
+        <span class="glyphicon glyphicon-stop"></span>
+        Stop
+      </button>
+
+      <button id="clear" class="btn btn-default">
+        <span class="glyphicon glyphicon-remove"></span>
+        Clear
+      </button>
+    </p>
+
+    <p>
+      <button id="addracer" class="btn btn-primary">
+        <span class="glyphicon glyphicon-plus"></span>
+        Add Racer
+      </button>
+    </p>
+
+    <div class="page-header">
+      <h2>Racer Config</h2>
+    </div>
+
+    <p id="racerbuttons">
+      <button type="button" class="btn btn-default racer-button">Racer 1</button>
+    </p>
+
+    <div class="page-header">
+      <h2>Lap Times</h1>
+    </div>
+
+    <div class="page-header">
+      <h2>Score</h1>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Place</th>
+          <th>Name</th>
+          <th>Lap Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Justin</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Tim</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="scanner" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Scanner</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="settings" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Settings</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-stats"></i></span>
+                <input id="ssid" type="text" class="form-control" name="ssid" placeholder="SSID">
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button id="savesettings" type="button" class="btn btn-default" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="power" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Scanner</h4>
+          </div>
+          <div class="modal-body">
+            <button id="reboot" type="button" class="btn btn-default" data-dismiss="modal">Reboot</button>
+            <button id="shutdown" type="button" class="btn btn-default" data-dismiss="modal">Shutdown</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="racerconfig" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Racer Config</h4>
+          </div>
+          <div class="modal-body">
+
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="username" type="text" class="form-control" name="name" placeholder="Racer">
+              </div>
+
+              <label for="band">Band:</label>
+              <select class="form-control" id="band">
+                <option>A</option>
+                <option>B</option>
+                <option>E</option>
+                <option>F</option>
+                <option>Raceband</option>
+              </select>
+
+              <label for="channel">Channel:</label>
+              <select class="form-control" id="channel">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+              </select>
+            </div>
+
+            <label for="rssi">RSSI:</label>
+            <div id="rssi" class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                25
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="name">Trigger RSSI:</label>
+              <input type="number" class="form-control" id="trigger">
+            </div>
+
+            <button id="calibrate" type="button" class="btn btn-primary">Calibrate</button>
+
+          </div>
+          <div class="modal-footer">
+            <button id="removeracer" type="button" class="btn btn-danger" data-dismiss="modal">Remove Racer</button>
+            <button id="saveracer" type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/racetrak.js"></script>
+</body>
+
+</html>
